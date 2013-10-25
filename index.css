@@ -1,26 +1,28 @@
 del {
-  color: #990022; }
+  color: #992211;
+  background: #ffbbbb; }
 
 .ui.diff {
   width: 500px; }
 
 .ui.block {
   background: rgba(255, 255, 255, 0.95);
-  padding: 10px;
+  padding: 10px 20px 10px 10px;
   margin: 30px auto;
-  width: 40%;
+  width: 49%;
   clear: both;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  min-height: 60px; }
 
 .ui.block.left, .ui.block.right {
   clear: none; }
 
 .ui.block.left {
-  margin-left: 10px;
+  margin-left: 0px;
   float: left; }
 
 .ui.block.right {
-  margin-right: 10px;
+  margin-right: 0px;
   float: right; }
 
 svg.ui.flow {
@@ -29,8 +31,7 @@ svg.ui.flow {
   left: 0;
   z-index: -1; }
   svg.ui.flow path.left, svg.ui.flow path.right {
-    stroke-width: 1px;
-    opacity: 0.5; }
+    stroke-width: 1px; }
   svg.ui.flow path.left {
     stroke: #004400;
     fill: #009900; }
