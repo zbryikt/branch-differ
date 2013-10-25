@@ -29,7 +29,8 @@ svg.ui.flow {
   left: 0;
   z-index: -1; }
   svg.ui.flow path.left, svg.ui.flow path.right {
-    stroke-width: 1px; }
+    stroke-width: 1px;
+    opacity: 0.5; }
   svg.ui.flow path.left {
     stroke: #004400;
     fill: #009900; }
