@@ -1,0 +1,35 @@
+del
+  color: #902
+.ui.diff
+  width: 500px
+  
+.ui.block
+  background: rgba(255,255,255,0.95)
+  padding: 10px
+  margin: 30px auto
+  width: 40%
+  clear: both
+  box-shadow: 0 0 4px rgba(0,0,0,0.3)
+.ui.block.left, .ui.block.right
+  clear: none
+
+.ui.block.left
+  margin-left: 10px
+  float: left
+.ui.block.right
+  margin-right: 10px
+  float: right
+
+svg.ui.flow
+  position: absolute
+  top: 0
+  left: 0
+  z-index: -1
+  path.left, path.right
+    stroke-width: 1px
+  path.left
+    stroke: #040
+    fill: #090
+  path.right
+    stroke: #400
+    fill: #900
